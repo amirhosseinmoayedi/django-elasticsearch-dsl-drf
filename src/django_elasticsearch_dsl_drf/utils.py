@@ -3,8 +3,7 @@ Utils.
 """
 
 import datetime
-from elasticsearch_dsl.search import AggsProxy
-
+from elasticsearch_dsl.search_base import AggsProxy
 
 __title__ = 'django_elasticsearch_dsl_drf.utils'
 __author__ = 'Artur Barseghyan <artur.barseghyan@gmail.com>'
